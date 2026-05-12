@@ -1,0 +1,84 @@
+# ========================================
+# HCMonitor — Root .gitignore
+# ========================================
+
+# ── Sensitive / Secrets ──────────────────
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.pem
+*.key
+*.p12
+*.p8
+*.jks
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# ── Node / npm ───────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# ── Expo / React Native ──────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.orig.*
+*.tsbuildinfo
+
+# ── Android build artifacts ──────────────
+android/
+/android/
+*.apk
+*.aab
+*.aar
+.gradle/
+local.properties
+build/
+
+# ── iOS build artifacts ──────────────────
+ios/
+/ios/
+Pods/
+*.xcworkspace
+*.xcuserstate
+DerivedData/
+
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+pip-log.txt
+
+# ── Generated / temporary files ──────────
+pdf_text.txt
+read_pdf.py
+master memoire.pdf
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.orig
+
+# ── TypeScript ───────────────────────────
+*.tsbuildinfo
+
+# ── EAS / CI ─────────────────────────────
+.eas/
