@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge" />
 
 # 🏥 HCMonitor
 
@@ -169,9 +169,13 @@ eas build -p android --profile production
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
+**All Rights Reserved © 2024–2026 Oussama Boukhalfa**
 
-Copyright © 2026 KT
+This project is published for **portfolio and showcase purposes only**.
+You may view the source code, but you may NOT copy, modify, distribute,
+or use it commercially without explicit written permission from the author.
+
+See [LICENSE](./LICENSE) for full terms.
 
 ---
 
